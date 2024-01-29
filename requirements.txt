@@ -1,4 +1,5 @@
 ﻿pandas
+requests
 dash_bootstrap_components
 scikit-learn==1.2.2
 gunicorn
