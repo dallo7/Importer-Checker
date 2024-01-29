@@ -1,5 +1,4 @@
 ﻿pandas
-pickle
 dash_bootstrap_componentsscikit-learn==1.2.2
 gunicorn
 dash==2.9.3
