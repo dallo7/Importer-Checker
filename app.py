@@ -188,7 +188,7 @@ def update_output(quote, product, mail, tel, n_clicks):
                 receiverAddress = mail
                 subject = "Quotation Accepted!"
                 body = "Congratulations! Your quotation for this product is under review!"
-                send_sms(tel, body)
+                # send_sms(tel, body)
                 sendMail(receiverAddress, subject, body)
                 reject = "your quote for this project is accepted"
 
@@ -197,7 +197,7 @@ def update_output(quote, product, mail, tel, n_clicks):
                 receiverAddress = mail
                 subject = "Quotation Rejected!"
                 body = "Please review the amount quoted for this product and re-submit!"
-                send_sms(tel, body)
+                # send_sms(tel, body)
                 sendMail(receiverAddress, subject, body)
                 reject = "your quote for this project is rejected"
 
