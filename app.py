@@ -56,18 +56,18 @@ def sendMail(receiverAddress, subject, body):
         return "Please check your Username or Password"
 
 
-def send_sms(phonenumber: int, sms: str):
-    url = 'https://mysms.celcomafrica.com/api/services/sendsms/'
+# def send_sms(phonenumber: int, sms: str):
+#     url = 'https://mysms.celcomafrica.com/api/services/sendsms/'
 
-    data = {'partnerID': '435',
-            'apikey': '1c37d5b44c805abf79800477e8af91d9',
-            'mobile': phonenumber,
-            'message': sms,
-            'shortcode': 'OSL',
-            'pass_type': 'plain'}
+#     data = {'partnerID': '435',
+#             'apikey': '1c37d5b44c805abf79800477e8af91d9',
+#             'mobile': phonenumber,
+#             'message': sms,
+#             'shortcode': 'OSL',
+#             'pass_type': 'plain'}
 
-    response = requests.post(url=url, json=data)
-    return response
+#     response = requests.post(url=url, json=data)
+#     return response
 
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP], title='Rhys')
