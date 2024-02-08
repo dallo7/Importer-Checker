@@ -60,7 +60,7 @@ def sendMail(receiverAddress, subject, body):
 #     url = 'https://mysms.celcomafrica.com/api/services/sendsms/'
 
 #     data = {'partnerID': '435',
-#             'apikey': '1c37d5b44c805abf79800477e8af91d9',
+#             'apikey': '1c371234dfghd5b44c8059876543abf7980047745678e8af91d9',
 #             'mobile': phonenumber,
 #             'message': sms,
 #             'shortcode': 'OSL',
